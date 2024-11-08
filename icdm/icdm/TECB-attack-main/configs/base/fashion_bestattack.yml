@@ -1,0 +1,29 @@
+# dataset
+dataset: FashionMNIST
+half: 14
+
+# dir
+data_dir: ./data/FashionMNIST/
+resume: ''
+save: ./model/FashionMNIST/base
+
+# model
+report_freq: 5
+workers: 8
+
+# backdoor
+backdoor: 50
+poison_epochs: 80
+target_class: 0
+poison_num: 4
+corruption_amp: 20.0
+backdoor_start: True
+
+# Hyperparameters
+lr: 0.001
+alpha: 0.2
+eps: 2.0
+epochs: 100
+batch_size: 64
+
+# best choice
