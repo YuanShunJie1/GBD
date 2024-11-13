@@ -6,15 +6,15 @@ General Test-Time Backdoor Detection in Split Neural Network-Based Vertical Fede
 
 "tifs" -> **BASL** backdoor attack.
 
-We have implemented our backdoor detection method, GBD, under both attacks. Taking the detection of the BASL attack as an example, in the "tifs" directory, main.py is used to run the BASL backdoor attack, while test.py is used to perform backdoor detection using our approach. The ubd.py file in the "attackers" directory represents our method. First, you need to run 
+We have implemented our backdoor detection method, GBD, under both attacks. Taking the detection of the BASL attack as an example, in the "tifs" directory, main.py is used to run the BASL backdoor attack, while test.py is used to perform backdoor detection using our approach. The ubd.py file in the "attackers" directory represents our method. First, you need to launch the backdoor attack on VFL: 
 ```
 python main.py
 ```
-to launch the backdoor attack on VFL, and then run 
+Then, you need to perform backdoor detection during the inference phase.
 ```
 python test.py
 ```
-to perform backdoor detection during the inference phase.
+
 
 ## Acknowledgment
 The code implemented in this work is based on some open-source projects related to VFL on GitHub. Thank you!
