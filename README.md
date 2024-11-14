@@ -10,7 +10,7 @@ We have implemented our backdoor detection method, GBD, under both attacks. Taki
 ```
 python main.py
 ```
-Then, you need to perform backdoor detection during the inference phase.
+Then, you can perform backdoor detection during the inference phase.
 ```
 python test.py
 ```
