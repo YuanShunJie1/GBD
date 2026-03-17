@@ -43,3 +43,11 @@ In this project, we demonstrate a general framework for detecting backdoor attac
 ## 🛠️ Environment Requirements
 - **Python ≥ 3.7**
 - **PyTorch ≥ 1.8**
+
+
+## 🙏 Acknowledgements
+
+This repository partially builds upon the open-source projects: https://github.com/WWlnZSBMaXU/Triggerless, https://github.com/13thDayOfLunarMay/TECB-attack, https://github.com/Mr-Ace-1997/Backdoor-Attack-Against-Split-Neural-Network-Based-Vertical-Federated-Learning
+
+We sincerely thank the original authors for making their code publicly available. The original project is licensed under the MIT License, and we have retained the original license in this repository in accordance with its terms. Based on their implementation, we have made modifications and extensions to support our proposed method and experimental settings.
+
